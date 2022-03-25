@@ -11,6 +11,10 @@ export default StyleSheet.create({
     padding: '20',
     margin: '10'
   },
+  pdfViewer: {
+    width: '50vw',
+    height: '90vh',
+  },
   name_logo: {
   
   
@@ -62,6 +66,8 @@ export default StyleSheet.create({
     padding: 10,
     paddingTop: 20,
     width: '25%',
+    borderLeft: '1px solid #D3D3D3',
+    height: '100%'
   },
   section_left: {
     width: '75%',
@@ -75,7 +81,7 @@ export default StyleSheet.create({
     // marginTop: '20',
     marginBottom: '20px',
     marginLeft: '30px',
-    height: '150',
+    height: '150px',
     fontFamily: 'Helvetica-Bold',
   },text: {
     fontSize: '10px',
@@ -88,6 +94,7 @@ export default StyleSheet.create({
     paddingBottom: '5px',
     fontSize: '14px',
     fontWeight: '900',
+    color : '#4398e8'
   },
   profession_text: {
     color: '#d1d5db',

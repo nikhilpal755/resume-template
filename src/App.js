@@ -21,7 +21,7 @@ function App() {
     profession: 'Junior Developer',
     display: true,
     about: 'About...',
-    font: '',
+    font: familyNames[0].family,
     fontLink : ''
 
   })

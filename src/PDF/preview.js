@@ -19,7 +19,7 @@ const Template = ({ profile }) => {
             </div>
             <div className='bodySection' style={{display: 'flex', flexDirection: 'row'}}>
                 <LeftSection profile={profile} />
-                <RightSection about={profile.about} />
+                <RightSection profile={profile} />
             </div>
           </div>
         </Page>
@@ -33,10 +33,7 @@ export default function Preview({ profile }) {
             <div style={{ flexGrow: 1 }}>
                 <PDFViewer
                     showToolbar={true}
-                    style={{
-                        width: '50vw',
-                        height: '90vh',
-                    }}
+                    style={styles.pdfViewer}
                 >
                     <Template profile={profile} />
                 </PDFViewer>
